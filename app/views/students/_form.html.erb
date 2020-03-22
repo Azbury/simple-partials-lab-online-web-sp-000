@@ -11,3 +11,12 @@
   <%= f.date_field :birthday %>
 </p>
   <%= f.submit %>
+<label>Student Name:</label><br>
+<%= text_field_tag :name, @student.name %><br>
+
+<label>Student Hometown</label><br>
+<%= text_field_tag :hometown, @student.hometown %><br>
+
+<label>Student Birthday</label><br>
+<%= text_field_tag :birthday, @student.birthday %><br>
+<%= submit_tag "Submit Post" %>
